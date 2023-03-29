@@ -1,10 +1,12 @@
-import React from 'react';
-
-import './Laurels.css';
+import React from "react";
+import { images } from "../../constants";
+import "./Laurels.css";
 
 const Laurels = () => (
-  <div>
-    Laurels
+  <div className="app__Laurels">
+    <div className="app__logo">
+      <img src={images.logo} />
+    </div>
   </div>
 );
 
