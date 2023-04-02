@@ -1,0 +1,46 @@
+.app__findus {
+  display: flex;
+  flex-direction: row;
+}
+
+.app__findus-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 4rem 2rem;
+}
+
+.app__findus-contact-address {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
+.app__findus-img img {
+  width: 629px;
+  height: 942px;
+}
+
+.app__findus-contact_hours {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  margin-bottom: 4rem;
+}
+
+.app__findus-contact_hours p {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .app__findus {
+    flex-direction: column;
+  }
+  .app__findus-contact {
+    margin: 2rem 1rem;
+  }
+  .app__findus-contact-address {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
